@@ -27,7 +27,7 @@ function App() {
     <>
       <NotesProvider>
       <div className="container"></div>
-      <NotesHeader  
+      <NotesHeader 
       sortBy={sortBy} onSortBy={(e) => setSortBy(e.target.value)} />
       <div className="note-app">
         <AddNote  />
